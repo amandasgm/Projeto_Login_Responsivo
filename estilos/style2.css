@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fontes/CaviarDreams.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Louis' ;
+    src: url(../fontes/Louis\ George\ Cafe.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Louis';
+    box-sizing: border-box;
+}
+body,html{
+    background-image: url(../imagens/pexels-dids-3312887.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section
