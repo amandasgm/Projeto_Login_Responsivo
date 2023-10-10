@@ -10,14 +10,21 @@
     src: url(../fontes/Louis\ George\ Cafe.ttf) format(truetype);
 }
 
+/*
+Typical Device Breakpoints
+--------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+*/
+
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Louis';
-    box-sizing: border-box;
+
 }
 body,html{
-    background-image: url(../imagens/pexels-dids-3312887.jpg);
+    background: url(../imagens/pexels-dids-3312887.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -27,4 +34,59 @@ main{
     height: 100vh;
     width: 100vw;
 }
-section
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #d99cacdf;
+    border: 2px solid #1F2526;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0px 0px 10px black;
+    
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+/* para telas maiores somente
+div#imagem{
+    display: block;
+    background:url(../imagens/rodagigante.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 5px;
+    padding: 0px;
+    background-position: left center;
+}
+*/
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#formulario > h1{
+    padding: 10px;
+    font-size: 30px;
+}
+
+p{
+    padding: 10px;
+    
+}

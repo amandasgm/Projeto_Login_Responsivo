@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fontes/CaviarDreams.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Louis' ;
+    src: url(../fontes/Louis\ George\ Cafe.ttf) format(truetype);
+}
+/*
+Typical Device Breakpoints
+--------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768 até 992px 
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-image:linear-gradient(to top, #D99CAC, #A64B5B) ;
+    }
+    
+    section#login{
+        width: 90vw;
+        background: #1F2526;
+        color: white;
+    }
+
+    div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+
+        display: block;
+        background:url(../imagens/pexels-dids-3312887.jpg);
+        height: 400px;
+        background-size: cover;
+        background-position: left bottom;
+    }
+    
+    div#formulario{
+        float: right;
+        width: 55%;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #D99CAC,#A64B5B);
+    }
+
+    section#login{
+        width: 950px;
+        background: #1F2526;
+        color: white;
+    }
+    
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+
+        display: block;
+        background:url(../imagens/pexels-dids-3312887.jpg);
+        height: 400px;
+        background-size: cover;
+        background-position: left bottom;
+    }
+    
+    div#formulario{
+        float: left;
+        width: 45%;
+    }
+    
+}
