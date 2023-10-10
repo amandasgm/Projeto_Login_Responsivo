@@ -54,6 +54,8 @@ Grandes telas: acima de 1200px
         color: #D99CAC;
         cursor: pointer;
     }
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -89,5 +91,6 @@ Grandes telas: acima de 1200px
         color: #D99CAC;
         cursor: pointer;
     }
+
     
 }
