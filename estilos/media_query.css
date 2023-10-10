@@ -48,6 +48,12 @@ Grandes telas: acima de 1200px
         width: 55%;
         
     }
+
+    form > a:hover{
+        border: 2px solid #D99CAC ;
+        color: #D99CAC;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -60,7 +66,7 @@ Grandes telas: acima de 1200px
         background: #1F2526;
         color: white;
     }
-    
+
     div#imagem{
         float: right;
         width: 50%;
@@ -76,6 +82,12 @@ Grandes telas: acima de 1200px
     div#formulario{
         float: left;
         width: 45%;
+    }
+
+    form > a:hover{
+        border: 2px solid #D99CAC ;
+        color: #D99CAC;
+        cursor: pointer;
     }
     
 }
