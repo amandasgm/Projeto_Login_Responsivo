@@ -21,7 +21,7 @@ Celular: de 600px até 768px
     margin: 0px;
     padding: 0px;
     font-family: 'Louis';
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 body,html{
@@ -39,30 +39,18 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: #d99cacec;
     border: 2px solid #ffffff;
     border-radius: 20px;
     width: 350px;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px white; 
     
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
-
-/* para telas maiores somente
-div#imagem{
-    display: block;
-    background:url(../imagens/rodagigante.jpg);
-    height: 200px;
-    background-size: cover;
-    margin-bottom: 5px;
-    padding: 0px;
-    background-position: left center;
-}
-*/
 
 div#formulario {
     display: block;
@@ -70,28 +58,30 @@ div#formulario {
 }
 
 div.campo{
-    background-color: white;
-    margin: 10px;
+    background-color: #1F2526;
     padding: 1px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    width: 300px;
+    width: 100%;
+    height: 40px;
 }
-
 input[type="email"],[type="password"]{
     border: none;
     background-color: #F2D5E0;
     padding: 10px;
     border-radius: 10px;
-    width: 80%;
+    width: 82.1%;
+    height: 17px;
     border-left: 0px;
+    font-size: 15px;
 }
 input[type="submit"]{
-    background-color: #A64B5B;
-    margin: 10px;
+    background-color: #1F2526;
     padding: 5px;
     border-radius: 5px;
-    width: 300px;
-    border: 2px solid #A64B5B;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #1F2526;
     font-family: 'Louis';
     font-size: 18px;
     color: white;
@@ -105,18 +95,34 @@ input[type="submit"]:hover{
 
 form > a{
     display: block;
-    background-color: rgba(240, 248, 255, 0);
-    text-decoration: none;
-    font-family: 'Louis';
-    width: 287px ;
-    border: 2px solid white;
-    margin: 10px;
     text-align: center;
-    border-radius: 5px;
-    padding: 5px;
     font-size: 15px;
-    
+    width: 287px;
+    padding: 5px; 
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: 2px solid white;    
+    border-radius: 5px;
+    text-decoration: none;
 }
+
+/*
+form > a{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 99.2%;
+    height: 25px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border:2px solid white;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+*/
 
 form > a:hover{
     border: 2px solid #733944;
@@ -125,19 +131,20 @@ form > a:hover{
 }
 
 span{
-    color: #A64B5B;
+    color: #ffffff;
     margin-right: 10px;
     top: 50%;
     left: 50%;
-    transform: translate(35%, 25%);
+    transform: translate(35%, 32%);
 }
 
 div#formulario > h1{
     padding: 10px;
     font-size: 40px;
-    color: white;
-    font-weight: lighter;
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Caviar Dreams';
 }
 
 p{
